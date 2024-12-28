@@ -1,4 +1,4 @@
-# Webapp
+# CLOUD NATIVE WEB APPLICATION
 
 ## Description
 A robust User Management Service built with Node.js and Express.js, enabling CRUD operations and email verification during user registration. Deployed on AWS, the infrastructure is provisioned using Terraform for scalability and efficiency.
