@@ -1,16 +1,31 @@
 # Webapp
 
 ## Description
+A robust User Management Service built with Node.js and Express.js, enabling CRUD operations and email verification during user registration. Deployed on AWS, the infrastructure is provisioned using Terraform for scalability and efficiency.
 
-This is a Node.js web application that utilizes Express, PostgreSQL, and Sequelize to provide a robust server environment. The application is configured with environment variables using `dotenv`.
+Features
+
+User Management: Comprehensive CRUD operations for managing user data.
+
+Health Monitoring: A dedicated endpoint to track application health and connected service status.
+
+Secure Deployment: Implements HTTPS with SSL certificates and customer-managed encryption keys to ensure data security.
+
+Scalability and Reliability: Utilizes managed instance groups and load balancers for high availability and scalability.
+
+Event-Driven Architecture: Sends verification emails through SendGrid by leveraging AWS SNS and Lambda Functions.
+
+## Architecture Diagram
+![Architecture Diagram](assets/Cloud6225.jpeg)
 
 
-## Installation and Running the Application test 2
+
+## Installation and Running the Application 
 
 1. Clone the repository :
 
    ```bash
-   git clone https://github.com/chetanpw98/Chetan-warad-webapp-forked.git test
+   git clone https://github.com/chetan1398/Cloud-Native-Web-Application-.git
    
 
 2. Install the dependencies:
