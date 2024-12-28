@@ -167,6 +167,6 @@ This project sets up and manages AWS infrastructure using **Terraform**. The con
 
 
 
-   Developer: Chetan Warad
-   NUID: 002817179
-   Email: warad.c@northeastern.edu
+Developer: Chetan Warad
+NUID: 002817179
+Email: warad.c@northeastern.edu
