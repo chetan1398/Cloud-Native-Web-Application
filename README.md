@@ -93,8 +93,8 @@ Event-Driven Architecture: Sends verification emails through SendGrid by leverag
 
    Status: 204 No Content
 
-Responses for GET/healthz:
-```bash
+   Responses for GET/healthz:
+   ```bash
    Status: 200 OK if it is healthy and no payload
    Status: 400 Bad Request
    Status: 503 if unhealthy
@@ -106,7 +106,7 @@ Responses for GET/healthz:
 
 
 7. To test the API request
-
+   ```bash
    API Response Examples: 
 
    200 OK
@@ -119,7 +119,10 @@ Responses for GET/healthz:
 
    503 Service Unavailable when disconnected to the database.
 
-   curl.exe -vvvv http://localhost:8080/healthz  
+   curl.exe -vvvv http://localhost:8080/healthz
+
+
+## TERRAFORM AWS INFRA 
 
 
 
