@@ -36,13 +36,6 @@ Event-Driven Architecture: Sends verification emails through SendGrid by leverag
    ```bash
    node app.js
 
-4. To start and stop to the Postgres Server
-   ```bash
-   net start postgresql-x64-16
-
-   
-   net stop postgresql-x64-16
-
 5. To run the Integration tests
    ```bash
    npm test
